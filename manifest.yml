@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: wyp
+  host: wyp
+  disk_quota: 1024M
+  services:
+  - wyp-cloudantNoSQLDB
+  - Text to Speech-1m
